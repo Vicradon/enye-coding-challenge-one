@@ -6,15 +6,7 @@ class NormalLoginForm extends React.Component {
   constructor() {
     super();
     this.state = {
-      Data: [
-        {
-          "first name": "Ralph",
-          "last name": "Victor",
-          "date of birth": "2nd March 2001",
-          age: 19,
-          hobby: "coding and writing"
-        }
-      ]
+      Data: []
     };
   }
   handleSubmit = e => {

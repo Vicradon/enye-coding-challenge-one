@@ -24,7 +24,7 @@ function Table({ Data }) {
               hobby
             } = data;
             return (
-              <tr>
+              <tr key={Data.length}>
                 <td>{firstname}</td>
                 <td>{lastname}</td>
                 <td>{DOB}</td>
